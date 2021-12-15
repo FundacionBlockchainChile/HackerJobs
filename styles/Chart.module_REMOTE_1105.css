@@ -1,0 +1,22 @@
+.chart {
+  /* width: 90%; */
+  /* margin-top: 100px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.chart canvas {
+  width: 64vw !important;
+  height: 64vh !important;
+  font-size: 2rem;
+}
+
+@media (max-width: 600px) {
+  .chart canvas {
+    width: 80vw !important;
+    height: 360px !important;
+  }
+}

@@ -1,0 +1,28 @@
+.chart {
+  /* width: 90%; */
+  /* margin-top: 100px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.chart canvas {
+<<<<<<< HEAD
+  width: 35vw !important;
+  height: 40vh !important;
+=======
+  width: 64vw !important;
+  height: 64vh !important;
+>>>>>>> f318c55b0d1415a0a224f1f8982dfd2fc3d8dd26
+  font-size: 2rem;
+}
+
+@media (max-width: 600px) {
+  .chart canvas {
+    width: 80vw !important;
+    height: 360px !important;
+  }
+}

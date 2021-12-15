@@ -1,0 +1,75 @@
+.curses {
+  margin: 20px 0px;
+  padding-top: 80px;
+  background: black !important;
+  color: white !important;
+}
+
+.curseCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: justify;
+  width: 100%;
+  background-color: black;
+  color: white;
+  min-height: 400px;
+  border: 1px solid red;
+  border-radius: 20px;
+  overflow: hidden;
+  font-size: .8rem !important;
+  max-height: 500px !important;
+}
+
+.curseCard:hover {
+  box-shadow: rgb(255, 0, 0) 0px 5px 15px;
+}
+
+.curseCard img {
+  width: 100% !important;
+  max-height: 190px !important;
+}
+
+.curseCard p {
+  font-size: .7rem !important;
+  padding: 0 20px;
+  color: gray;
+}
+
+.curseCard .title {
+  margin: 10px 20px;
+  font-size: 1.2rem !important;
+  color: white;
+}
+
+.btn {
+  border: 1px solid red !important;
+  background: none !important;
+  padding: 5px 20px !important;
+  border-radius: 20px !important;
+  font-size: .8rem !important;
+  margin: 0 20px 20px 0px !important;
+  align-self: flex-end;
+  justify-self: flex-end !important;
+  margin-top: auto !important;
+  text-decoration: none !important;
+  color: white;
+}
+
+.btn:hover {
+  color: white !important;
+  background: red !important;
+}
+
+@media (max-width: 600px) {
+  .curses {
+    margin: 20px;
+    padding-top: 50px;
+  }
+
+  .curseCard img {
+    width: 100% !important;
+    max-height: 400px !important;
+  }
+}

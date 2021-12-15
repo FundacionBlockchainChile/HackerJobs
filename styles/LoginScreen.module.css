@@ -1,0 +1,114 @@
+.login_screen {
+  position: fixed;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  padding: 10vw 5vw;
+  width: 100vw;
+  height: 92vh;
+  z-index: 1000;
+  top: 10vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  left: 0;
+  pointer-events: visible;
+}
+
+.login_box {
+  width: 500px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 20px;
+  background-color: white;
+  /* margin-bottom: 15vh; */
+  font-size: .9rem;
+  border-radius: 15px;
+}
+
+.closeX {
+  align-self: flex-end;
+  margin-right: 15px;
+  border: 1px solid gray;
+  padding: 3px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: .6rem;
+}
+
+.logo {
+  height: 4rem;
+  width: 4rem;
+  margin: 0 0 10px 0;
+}
+
+.login_btn {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 10px 30px !important;
+  border-radius: 5px !important;
+  border: 1px solid gray !important;
+  color: rgb(100, 100, 100) !important;
+  text-align: center !important;
+  cursor: pointer;
+  width: 250px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 10px;
+  font-size: .75rem !important;
+  background-color: white !important;
+  font-weight: bold !important;
+}
+
+.green_background {
+  color: white !important;
+  background-color: green !important;
+}
+
+.orange_background {
+  color: white !important;
+  background-color: orange !important;
+}
+
+.login_btn:hover {
+  box-shadow: orange 0px 5px 15px;
+}
+
+.login_btn img {
+  width: 30px;
+}
+
+.login_btn p {
+  margin: 0 5px;
+}
+
+.input {
+  width: 250px;
+  font-size: .75rem;
+  padding: 5px 10px;
+  margin: .5rem 0;
+  border: 1px solid gray;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: beige;
+  border-radius: 5px;
+}
+
+.input:hover {
+  box-shadow: orange 0px 5px 15px;
+}
+
+.input:focus {
+  outline: none;
+  border: 1px solid orange;
+}
+
+.login_box label {
+  font-size: .7rem;
+}
+
+.margin_top {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}

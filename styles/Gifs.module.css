@@ -1,0 +1,68 @@
+.stores {
+  margin: 20px 0px;
+  padding-top: 80px;
+  background: black !important;
+  color: white !important;
+}
+
+.storeCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: justify;
+  width: 100%;
+  background-color: black;
+  color: white;
+  min-height: 400px;
+  border: 1px solid orange;
+  border-radius: 20px;
+  overflow: hidden;
+  font-size: .8rem !important;
+  max-height: 500px !important;
+}
+
+.storeCard img {
+  width: 100% !important;
+  max-height: 190px !important;
+}
+
+.storeCard p {
+  font-size: .7rem !important;
+  padding: 0 20px;
+}
+
+.storeCard .title {
+  margin: 10px 20px;
+  font-size: 1.2rem !important;
+  color: orange;
+}
+
+.btn {
+  border: 1px solid orange !important;
+  background: none !important;
+  padding: 5px 20px !important;
+  border-radius: 20px !important;
+  font-size: .8rem !important;
+  margin: 0 20px 20px 0px !important;
+  align-self: flex-end;
+  justify-self: flex-end !important;
+  margin-top: auto !important;
+}
+
+.btn:hover {
+  color: white !important;
+  background: orange !important;
+}
+
+@media (max-width: 600px) {
+  .stores {
+    margin: 20px;
+    padding-top: 50px;
+  }
+
+  .storeCard img {
+    width: 100% !important;
+    max-height: 400px !important;
+  }
+}
